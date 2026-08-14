@@ -130,22 +130,22 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/ClimateAtlas.png) center center/cover;
+  background: url(../assets/EFC_Footprint.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/ClimateAtlas.png) center center/cover;
 }
 
 /* Project 3 */
-.card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center/cover;
+.card:nth-child(3) .card-video {
+  display: block;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/project-four.png) center center/cover;
+  background: url(../assets/Texas_Freeze_GEE.png) center center/cover;
 }
 
 /* Project 5 */
