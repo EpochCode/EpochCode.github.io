@@ -17,7 +17,44 @@
 <body>
 
   <header>
-    <nav><!-- Navigation --></nav>
+    <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="#"
+              ><img src="./assets/e3T_sxOKS0CZtBvTV0Hvrg.webp" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#footer">CONTACT</a></li>
+            <li><a class="nav-link" href="seeMore.html">PROJECT GALLERY</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="resume.html"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
   </header>
 
   <main>
@@ -29,20 +66,66 @@
     </div>
     <div class="resume-text">
         <section>
-            <h3>Professional Summary</h3>
-            <p>Brief 2–3 sentence summary of your experience and strengths.</p>
+            <h3>GIS Developer | CSS inc. (Client: NOAA)</h3>
+            <p>- Design and build custom GIS web applications using ArcGIS Experience Builder, Web
+                AppBuilder, and JavaScript/React to deliver climate analytics and operational dashboards
+                for NOAA leadership and stakeholder communication
+            </p>
+            <p>- Automate geospatial workflows and geoprocessing tasks using Python (rasterio, shapely,
+                pandas) ETL pipelines that ingest, process, and publish hosted feature layers and map
+                services to react web page.
+            </p>
+            <p>- Manage ArcGIS Online organizational settings, user roles, and content governance while
+                developing dashboards, StoryMaps, and operational views for project teams and leadership
+                reporting. Configure vector tile styles and maintain published service schemas for
+                organizational consistency.
+            </p>
+            <p>- Develop user-facing documentation, training materials, and how-to guides for GIS
+                applications; translate technical requirements for non-GIS scientists and program managers
+            </p>
         </section>
     </div>
     <div class="resume-text">
         <section>
-            <h3>Professional Summary</h3>
-            <p>Brief 2–3 sentence summary of your experience and strengths.</p>
+            <h3>GIS Planner | Burlington-Graham MPO</h3>
+            <p>- Lead geospatial application development for regional planning workflows, designing custom
+                Python scripts and model automation for suitability analysis, population projections, and
+                infrastructure planning in fast-paced, multi-stakeholder environments.
+            </p>
+            <p>- Build and maintain geoprocessing workflows integrating ArcGIS Pro and QGIS, developing
+                automated data validation and error-handling routines to ensure reliable data exchange
+                between systems
+            </p>
+            <p>- Collaborate with cross-functional teams to gather project requirements and translate them
+                into technical specifications for web mapping applications, implementing
+                HTML/CSS/JavaScript updates to expand functionality and accessibility.
+            </p>
+            <p>- Design and deploy intuitive geospatial tools for field and office teams; provide training
+                and ongoing technical support to diverse users including city councils, planning boards,
+                and community stakeholders.
+            </p>
         </section>
     </div>
     <div class="resume-text">
         <section>
-            <h3>Professional Summary</h3>
-            <p>Brief 2–3 sentence summary of your experience and strengths.</p>
+            <h3>Environmental Specialist | Pinal County</h3>
+            <p>- Developed transit accessibility maps using network analysis to assess public
+                transportation connectivity across county service areas; implemented Python scripts (ArcPy,
+                Network Analyst) to automate routing calculations and service area generation for multiple
+                transit corridors
+            </p>
+            <p>- Built interactive web maps using ArcGIS JavaScript API and Leaflet for public-facing
+                portal, enabling residents to explore proposed routes, view network connectivity, and
+                submit feedback through embedded form widgets
+            </p>
+            <p>- Performed spatial analysis to inform urban planning decisions and environmental policy
+                recommendations; produced cartographic outputs for inclusion in interactive web
+                applications and digital planning documents
+            </p>
+            <p>- Applied statistics to evaluate environmental program effectiveness across geographic
+                regions; supported development of data visualization components using JavaScript libraries
+                for county website integration
+            </p>
         </section>
     </div>
     <div class="resume-text">
@@ -57,6 +140,6 @@
     <!-- Footer -->
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
