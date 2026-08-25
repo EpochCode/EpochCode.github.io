@@ -17,7 +17,44 @@
 <body>
 
   <header>
-    <nav><!-- Navigation --></nav>
+    <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="#"
+              ><img src="./assets/e3T_sxOKS0CZtBvTV0Hvrg.webp" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="index.html#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="index.html#footer">CONTACT</a></li>
+            <li><a class="nav-link" href="seeMore.html">PROJECT GALLERY</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="resume.html"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
   </header>
 
   <main>
@@ -28,6 +65,6 @@
     <!-- Footer -->
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
