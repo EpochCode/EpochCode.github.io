@@ -220,6 +220,19 @@ body {
   left: 10px;
 }
 
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.skills img {
+    height: 30px;
+    width: auto;
+}
+
 /* Footer */
 #footer {
   background: #111111;

@@ -98,19 +98,10 @@ h2::selection {
 }
 
 .resume-text {
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 1.5rem 10rem;
   margin: 0 auto;
   position: relative;
-}
-
-.resume-text::before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: black;
+  line-height: 1.7;
 }
 
 /* Project cards */
