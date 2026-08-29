@@ -165,6 +165,21 @@ h2::selection {
   background: url(../assets/LORA_Map.png) center center/cover;
 }
 
+.iframe-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers horizontally */
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+    
+.iframe-container iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+  display: block; /* Removes bottom whitespace */
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
