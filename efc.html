@@ -10,6 +10,12 @@
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
 
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/utilities.css" />
@@ -27,9 +33,17 @@
           </h1>
           <!-- Navbar links -->
           <ul class="nav-menu">
-            <li><a class="nav-link" href="index.html#projects">PROJECTS</a></li>
-            <li><a class="nav-link" href="index.html#footer">CONTACT</a></li>
-            <li><a class="nav-link" href="seeMore.html">PROJECT GALLERY</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#footer">CONTACT</a></li>
+            <li class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Dropdown ▾</button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="efc.html">Event Footprint Catalog</a>
+                <a href="ca.html">Climate Atlas</a>
+                <a href="gee.html">Google Earth Engine Apps</a>
+                <a href="pte.html">Precipitation Time-Series Explorer</a>
+                <a href="storymap.html">StoryMaps</a>
+              </div>
             <li>
               <a
                 class="nav-link btn btn-primary"

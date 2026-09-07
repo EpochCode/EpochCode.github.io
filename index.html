@@ -100,7 +100,15 @@
           <ul class="nav-menu">
             <li><a class="nav-link" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link" href="#footer">CONTACT</a></li>
-            <li><a class="nav-link" href="seeMore.html">PROJECT GALLERY</a></li>
+            <li class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Dropdown ▾</button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="efc.html">Event Footprint Catalog</a>
+                <a href="ca.html">Climate Atlas</a>
+                <a href="gee.html">Google Earth Engine Apps</a>
+                <a href="pte.html">Precipitation Time-Series Explorer</a>
+                <a href="storymap.html">StoryMaps</a>
+              </div>
             <li>
               <a
                 class="nav-link btn btn-primary"
@@ -285,10 +293,6 @@
           </div>
         </div>
       </article>
-
-      <a href="seeMore.html" class="btn btn-secondary"
-        rel="noopener noreferrer">See More <i class="fas fa-arrow-right"></i
-      ></a>
     </section>
 
     <footer id="footer">
